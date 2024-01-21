@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 72px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.primary-btn {
+  all: unset;
+  background: var(--red);
+  padding: 6px 16px;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 75%;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.hero-content h1 {
+  font-family: Poppins;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.secondary-btn {
+  all: unset;
+  background: transparent;
+  color: gray;
+  border: 1px solid gray;
+  padding: 6px 16px;
+  height: 32px;
+  margin-left: 12px;
+  font-weight: 500;
+}
+ul li {
+  cursor: pointer;
+}
+.brand-icons {
+  margin-top: 8px;
+}
+.brand-icons img {
+  margin: 0 4px;
+}
